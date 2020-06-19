@@ -28,6 +28,7 @@ output application/json
 "output"]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
+		<logger level="INFO" doc:name="Logger" doc:id="88caa3fd-beb1-428a-b84f-afe76baa911f" message='#["success"]'/>
 	</flow>
 	<flow name="vm-pocFlow1" doc:id="379547b8-14d3-4cb8-9dfc-75f846f695a7" >
 		<vm:listener queueName="vmQueue" doc:name="Listener" doc:id="05f81de8-a550-4b8e-9eed-6973ef4d99dd" config-ref="VM_Config"/>
